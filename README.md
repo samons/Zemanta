@@ -17,7 +17,7 @@ Usage:
 	// output
 	// array('status' => 'ok', 'articles' => .....);
 
-The `api` method also support call method as first argument and optional parameters as array in second or third argument. 
+The `api` method also support API `method` parameter as first argument and optional API parameters as array in second or third argument. 
 
 	$params = array('format' => 'json');	
 	$zemanta->api('zemanta.suggest', $params);
