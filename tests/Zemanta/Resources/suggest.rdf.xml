@@ -1,0 +1,864 @@
+<rdf:RDF xml:base="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:z="http://s.zemanta.com/ns#">
+	<rdf:Description rdf:about="">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Document" />
+		<z:title />
+		<z:text>The Phoenix Mars Lander has successfully deployed its robotic arm and
+	tested other instruments including a laser designed to detect dust,
+	clouds, and fog. The arm will be used to dig up samples of the Martian
+	surface which will be analyzed as a possible habitat for life</z:text>
+		<z:rid>a857816d-7fef-4916-a42d-ceb466c09a2e</z:rid>
+		<z:signature>&lt;div class="zemanta-pixie"&gt;&lt;a class="zemanta-pixie-a" href="http://www.zemanta.com/?px" title="Enhanced by Zemanta"&gt;&lt;img class="zemanta-pixie-img" src="http://img.zemanta.com/zemified_e.png?x-id=a857816d-7fef-4916-a42d-ceb466c09a2e" alt="Enhanced by Zemanta" /&gt;&lt;/a&gt;&lt;/div&gt;</z:signature>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Related1">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Related" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.0016</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://r.zemanta.com/?u=http%3A//www.cnn.com/2013/08/06/tech/innovation/mars-curiosity-anniversary/index.html&amp;a=191371927&amp;rid=a857816d-7fef-4916-a42d-ceb466c09a2e&amp;e=560a04bc18436f1f0dc579e56789a319">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#article" />
+				<z:title>5 things Mars rover Curiosity has taught us</z:title>
+				<z:published_datetime>2013-08-06T13:53:01Z</z:published_datetime>
+				<z:zemified>0</z:zemified>
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Related2">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Related" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.0015</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://www.bbc.co.uk/news/science-environment-22952441">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#article" />
+				<z:title>UK team unveils Mars concept mission</z:title>
+				<z:published_datetime>2013-07-24T06:54:22Z</z:published_datetime>
+				<z:zemified>0</z:zemified>
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Related3">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Related" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.0015</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://r.zemanta.com/?u=http%3A//www.guardian.co.uk/science/2013/jul/28/curiosity-rover-descent-mars-nasa&amp;a=188774108&amp;rid=a857816d-7fef-4916-a42d-ceb466c09a2e&amp;e=e7b61c22a34800b7b69a297fe172f091">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#article" />
+				<z:title>Curiosity rover's descent to Mars - the story so far</z:title>
+				<z:published_datetime>2013-07-27T23:05:00Z</z:published_datetime>
+				<z:zemified>0</z:zemified>
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Related4">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Related" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.0015</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://r.zemanta.com/?u=http%3A//www.guardian.co.uk/science/2013/jul/18/curiosity-rover-mars&amp;a=186394323&amp;rid=a857816d-7fef-4916-a42d-ceb466c09a2e&amp;e=0a3d835213d90a1004dffdd63e7cd6fe">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#article" />
+				<z:title>Curiosity rover finds evidence Mars lost its atmosphere 4bn years ago</z:title>
+				<z:published_datetime>2013-07-18T18:01:15Z</z:published_datetime>
+				<z:zemified>0</z:zemified>
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Related5">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Related" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.0015</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://www.bbc.co.uk/news/science-environment-23349496">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#article" />
+				<z:title>How to put a human on Mars</z:title>
+				<z:published_datetime>2013-07-23T15:02:54Z</z:published_datetime>
+				<z:zemified>0</z:zemified>
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Related6">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Related" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.0013</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://r.zemanta.com/?u=http%3A//www.cnn.com/2013/07/19/tech/innovation/mars-atmosphere/index.html&amp;a=186621924&amp;rid=a857816d-7fef-4916-a42d-ceb466c09a2e&amp;e=bce46307d8268280ff1d52f74857520e">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#article" />
+				<z:title>Studies: Martian atmosphere was destroyed long ago</z:title>
+				<z:published_datetime>2013-07-19T22:21:59Z</z:published_datetime>
+				<z:zemified>0</z:zemified>
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Related7">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Related" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.0012</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://motherboard.vice.com/blog/to-unlock-marss-wet-past-nasas-next-orbiter-will-scan-the-martian-sky">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#article" />
+				<z:title>To Unlock Mars's Wet Past, NASA's Next Orbiter Will Scan the Martian Sky</z:title>
+				<z:published_datetime>2013-08-27T13:40:00Z</z:published_datetime>
+				<z:zemified>0</z:zemified>
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Related8">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Related" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.0012</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://theactionhospital.com/2013/08/28/as-the-invaders-leap-from-their-shining-machine/">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#article" />
+				<z:title>As The Invaders Leap From Their Shining Machine...</z:title>
+				<z:published_datetime>2013-08-28T04:56:38Z</z:published_datetime>
+				<z:zemified>0</z:zemified>
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Related9">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Related" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.0010</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://motherboard.vice.com/blog/the-european-space-agency-is-unlocking-the-mystery-of-marss-interior">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#article" />
+				<z:title>The European Space Agency Is Unlocking the Mystery of Mars's Interior</z:title>
+				<z:published_datetime>2013-08-14T14:18:00Z</z:published_datetime>
+				<z:zemified>0</z:zemified>
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Related10">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Related" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.0010</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://www.huffingtonpost.com/2013/08/09/haiku-mars_n_3733860.html">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#article" />
+				<z:title>1,100 Haiku Headed To Mars Aboard NASA's MAVEN Spacecraft</z:title>
+				<z:published_datetime>2013-08-09T22:40:18Z</z:published_datetime>
+				<z:zemified>0</z:zemified>
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image1">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>PhotonQ-Phoenix BluePrint</z:description>
+		<z:attribution>PhotonQ-Phoenix BluePrint (Photo credit: &lt;a href="http://www.flickr.com/photos/67968452@N00/1001797820"&gt;PhOtOnQuAnTiQuE&lt;/a&gt;)</z:attribution>
+		<z:license_text>License CreativeCommons NonCommercial NoDerivs</z:license_text>
+		<z:source_url rdf:resource="http://www.flickr.com/photos/67968452@N00/1001797820" />
+		<z:confidence>0.5000</z:confidence>
+		<z:url_s rdf:resource="http://farm2.static.flickr.com/1178/1001797820_8e84d676f1_s.jpg" />
+		<z:url_s_w>0</z:url_s_w>
+		<z:url_s_h>0</z:url_s_h>
+		<z:url_m rdf:resource="http://farm2.static.flickr.com/1178/1001797820_8e84d676f1_m.jpg" />
+		<z:url_m_w>0</z:url_m_w>
+		<z:url_m_h>0</z:url_m_h>
+		<z:url_l rdf:resource="http://farm2.static.flickr.com/1178/1001797820_8e84d676f1.jpg" />
+		<z:url_l_w>0</z:url_l_w>
+		<z:url_l_h>0</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image2">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>PhotonQ-Phoenix discovering Life..beyond our dreams</z:description>
+		<z:attribution>PhotonQ-Phoenix discovering Life..beyond our dreams (Photo credit: &lt;a href="http://www.flickr.com/photos/67968452@N00/1001797832"&gt;PhOtOnQuAnTiQuE&lt;/a&gt;)</z:attribution>
+		<z:license_text>License CreativeCommons NonCommercial NoDerivs</z:license_text>
+		<z:source_url rdf:resource="http://www.flickr.com/photos/67968452@N00/1001797832" />
+		<z:confidence>0.5000</z:confidence>
+		<z:url_s rdf:resource="http://farm2.static.flickr.com/1377/1001797832_27886cf327_s.jpg" />
+		<z:url_s_w>0</z:url_s_w>
+		<z:url_s_h>0</z:url_s_h>
+		<z:url_m rdf:resource="http://farm2.static.flickr.com/1377/1001797832_27886cf327_m.jpg" />
+		<z:url_m_w>0</z:url_m_w>
+		<z:url_m_h>0</z:url_m_h>
+		<z:url_l rdf:resource="http://farm2.static.flickr.com/1377/1001797832_27886cf327.jpg" />
+		<z:url_l_w>0</z:url_l_w>
+		<z:url_l_h>0</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image3">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>PhotonQ-Phoenix First MARS view</z:description>
+		<z:attribution>PhotonQ-Phoenix First MARS view (Photo credit: &lt;a href="http://www.flickr.com/photos/67968452@N00/1001797732"&gt;PhOtOnQuAnTiQuE&lt;/a&gt;)</z:attribution>
+		<z:license_text>License CreativeCommons NonCommercial NoDerivs</z:license_text>
+		<z:source_url rdf:resource="http://www.flickr.com/photos/67968452@N00/1001797732" />
+		<z:confidence>0.5000</z:confidence>
+		<z:url_s rdf:resource="http://farm2.static.flickr.com/1021/1001797732_b8e79ab25d_s.jpg" />
+		<z:url_s_w>0</z:url_s_w>
+		<z:url_s_h>0</z:url_s_h>
+		<z:url_m rdf:resource="http://farm2.static.flickr.com/1021/1001797732_b8e79ab25d_m.jpg" />
+		<z:url_m_w>0</z:url_m_w>
+		<z:url_m_h>0</z:url_m_h>
+		<z:url_l rdf:resource="http://farm2.static.flickr.com/1021/1001797732_b8e79ab25d.jpg" />
+		<z:url_l_w>0</z:url_l_w>
+		<z:url_l_h>0</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image4">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>English: Phoenix Mars Lander being worked on by NASA engineers. The planned Operational Life of the Phoenix Lander is 90 Martian days. Each Martian day is 40 minutes longer than an Earth Day.</z:description>
+		<z:attribution>English: Phoenix Mars Lander being worked on by NASA engineers. The planned Operational Life of the Phoenix Lander is 90 Martian days. Each Martian day is 40 minutes longer than an Earth Day. (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:Phoenix_Mars_Lander.jpg"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:Phoenix_Mars_Lander.jpg" />
+		<z:confidence>1.5249</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Phoenix_Mars_Lander.jpg/75px-Phoenix_Mars_Lander.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>50</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Phoenix_Mars_Lander.jpg/300px-Phoenix_Mars_Lander.jpg" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>201</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/e/ec/Phoenix_Mars_Lander.jpg" />
+		<z:url_l_w>3000</z:url_l_w>
+		<z:url_l_h>2008</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image5">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>Phoenix is launched atop a Delta II 7925 rocket</z:description>
+		<z:attribution>Phoenix is launched atop a Delta II 7925 rocket (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:Phoenix_Launch_04_08_2007.jpg"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:Phoenix_Launch_04_08_2007.jpg" />
+		<z:confidence>1.4275</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Phoenix_Launch_04_08_2007.jpg/75px-Phoenix_Launch_04_08_2007.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>112</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Phoenix_Launch_04_08_2007.jpg/300px-Phoenix_Launch_04_08_2007.jpg" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>448</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/a/ad/Phoenix_Launch_04_08_2007.jpg" />
+		<z:url_l_w>2008</z:url_l_w>
+		<z:url_l_h>3000</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image6">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>Mars Phoenix lander landing site</z:description>
+		<z:attribution>Mars Phoenix lander landing site (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:Mars_Phoenix_lander_close_125.74922W_68.21883N.png"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:Mars_Phoenix_lander_close_125.74922W_68.21883N.png" />
+		<z:confidence>1.1745</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Mars_Phoenix_lander_close_125.74922W_68.21883N.png/75px-Mars_Phoenix_lander_close_125.74922W_68.21883N.png" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>44</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Mars_Phoenix_lander_close_125.74922W_68.21883N.png/300px-Mars_Phoenix_lander_close_125.74922W_68.21883N.png" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>178</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/d/da/Mars_Phoenix_lander_close_125.74922W_68.21883N.png" />
+		<z:url_l_w>1278</z:url_l_w>
+		<z:url_l_h>757</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image7">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>Phoenix during testing in September 2006</z:description>
+		<z:attribution>Phoenix during testing in September 2006 (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:Phoenix_Mars_Lander_in_testing_PIA01885.jpg"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:Phoenix_Mars_Lander_in_testing_PIA01885.jpg" />
+		<z:confidence>1.1605</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Phoenix_Mars_Lander_in_testing_PIA01885.jpg/75px-Phoenix_Mars_Lander_in_testing_PIA01885.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>50</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Phoenix_Mars_Lander_in_testing_PIA01885.jpg/300px-Phoenix_Mars_Lander_in_testing_PIA01885.jpg" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>199</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/7/79/Phoenix_Mars_Lander_in_testing_PIA01885.jpg" />
+		<z:url_l_w>900</z:url_l_w>
+		<z:url_l_h>597</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image8">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>The butterfly-like object in this picture is NASA's Phoenix Mars Lander, as seen from above by NASA's Mars Reconnaissance Orbiter.</z:description>
+		<z:attribution>The butterfly-like object in this picture is NASA's Phoenix Mars Lander, as seen from above by NASA's Mars Reconnaissance Orbiter. (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:PheonixOnMars.jpg"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:PheonixOnMars.jpg" />
+		<z:confidence>1.1506</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/PheonixOnMars.jpg/75px-PheonixOnMars.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>44</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/PheonixOnMars.jpg/300px-PheonixOnMars.jpg" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>177</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/f/f8/PheonixOnMars.jpg" />
+		<z:url_l_w>427</z:url_l_w>
+		<z:url_l_h>252</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image9">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>The official Phoenix Mars Lander Mission sticker, designed by Principal Investigator Peter Smith, shows off the Phoenix logo created by Isabelle Tremblay. It also displays all of the mission partners around the border.</z:description>
+		<z:attribution>The official Phoenix Mars Lander Mission sticker, designed by Principal Investigator Peter Smith, shows off the Phoenix logo created by Isabelle Tremblay. It also displays all of the mission partners around the border. (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:Phoenix_mission_logo.png"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:Phoenix_mission_logo.png" />
+		<z:confidence>1.1293</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Phoenix_mission_logo.png/75px-Phoenix_mission_logo.png" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>75</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Phoenix_mission_logo.png/300px-Phoenix_mission_logo.png" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>300</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/5/53/Phoenix_mission_logo.png" />
+		<z:url_l_w>2400</z:url_l_w>
+		<z:url_l_h>2400</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image10">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>English: A comparison of sizes for the Sojourner rover (Mars Pathfinder), the Mars Exploration Rovers, the Phoenix lander and the Mars Science Laboratory.</z:description>
+		<z:attribution>English: A comparison of sizes for the Sojourner rover (Mars Pathfinder), the Mars Exploration Rovers, the Phoenix lander and the Mars Science Laboratory. (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:28936main_rover-metric.jpg"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>License unknown, please &lt;a href="http://commons.wikipedia.org/wiki/File:28936main_rover-metric.jpg" target="_blank"&gt;check it yourself&lt;/a&gt;</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:28936main_rover-metric.jpg" />
+		<z:confidence>1.0820</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/28936main_rover-metric.jpg/75px-28936main_rover-metric.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>43</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/28936main_rover-metric.jpg/300px-28936main_rover-metric.jpg" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>171</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/c/cb/28936main_rover-metric.jpg" />
+		<z:url_l_w>800</z:url_l_w>
+		<z:url_l_h>456</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image11">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>Thermal and Evolved Gas Analyzer (TEGA).</z:description>
+		<z:attribution>Thermal and Evolved Gas Analyzer (TEGA). (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:183833main_wb1-tega-hires.jpg"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:183833main_wb1-tega-hires.jpg" />
+		<z:confidence>0.9851</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/183833main_wb1-tega-hires.jpg/75px-183833main_wb1-tega-hires.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>56</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/183833main_wb1-tega-hires.jpg/300px-183833main_wb1-tega-hires.jpg" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>225</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/3/34/183833main_wb1-tega-hires.jpg" />
+		<z:url_l_w>1536</z:url_l_w>
+		<z:url_l_h>1152</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image12">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>English: A labeled look at NASA's Mars Phoenix Lander.</z:description>
+		<z:attribution>English: A labeled look at NASA's Mars Phoenix Lander. (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:070802_phoenix_lab_02.jpg"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:070802_phoenix_lab_02.jpg" />
+		<z:confidence>0.9569</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/070802_phoenix_lab_02.jpg/75px-070802_phoenix_lab_02.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>51</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/070802_phoenix_lab_02.jpg/300px-070802_phoenix_lab_02.jpg" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>203</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/f/f6/070802_phoenix_lab_02.jpg" />
+		<z:url_l_w>720</z:url_l_w>
+		<z:url_l_h>486</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image13">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>English: thermal and electrical conductivity probe Română: Sonda de conductivitate electrică şi termică folosită de misiunea Phoenix Mars Lander</z:description>
+		<z:attribution>English: thermal and electrical conductivity probe Română: Sonda de conductivitate electrică şi termică folosită de misiunea Phoenix Mars Lander (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:Phoenix_thermal_and_electrical_conductivity_probe.jpg"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:Phoenix_thermal_and_electrical_conductivity_probe.jpg" />
+		<z:confidence>0.8304</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Phoenix_thermal_and_electrical_conductivity_probe.jpg/75px-Phoenix_thermal_and_electrical_conductivity_probe.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>56</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Phoenix_thermal_and_electrical_conductivity_probe.jpg/300px-Phoenix_thermal_and_electrical_conductivity_probe.jpg" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>225</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/2/26/Phoenix_thermal_and_electrical_conductivity_probe.jpg" />
+		<z:url_l_w>2272</z:url_l_w>
+		<z:url_l_h>1704</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image14">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>English: This chart plots the minimum daily atmospheric temperature measured by NASA's Phoenix Mars Lander spacecraft since landing on Mars. As the temperature increased through the summer season, the atmospheric humidity also increased. Clouds, ground fog, and frost were observed each night after the temperature started dropping.</z:description>
+		<z:attribution>English: This chart plots the minimum daily atmospheric temperature measured by NASA's Phoenix Mars Lander spacecraft since landing on Mars. As the temperature increased through the summer season, the atmospheric humidity also increased. Clouds, ground fog, and frost were observed each night after the temperature started dropping. (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:279902main_Temperature_SD.jpg"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:279902main_Temperature_SD.jpg" />
+		<z:confidence>0.8244</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/279902main_Temperature_SD.jpg/75px-279902main_Temperature_SD.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>56</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/279902main_Temperature_SD.jpg/300px-279902main_Temperature_SD.jpg" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>225</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/e/e7/279902main_Temperature_SD.jpg" />
+		<z:url_l_w>720</z:url_l_w>
+		<z:url_l_h>540</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image15">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>Landing site panorama. The top portion is vertically exaggerated. See below for color version.</z:description>
+		<z:attribution>Landing site panorama. The top portion is vertically exaggerated. See below for color version. (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:PIA10735_Phoenix_B%26W_panorama.jpg"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:PIA10735_Phoenix_B%26W_panorama.jpg" />
+		<z:confidence>0.7993</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PIA10735_Phoenix_B%26W_panorama.jpg/75px-PIA10735_Phoenix_B%26W_panorama.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>20</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PIA10735_Phoenix_B%26W_panorama.jpg/300px-PIA10735_Phoenix_B%26W_panorama.jpg" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>82</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/1/17/PIA10735_Phoenix_B%26W_panorama.jpg" />
+		<z:url_l_w>6659</z:url_l_w>
+		<z:url_l_h>1818</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image16">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>Phoenix HiRISEing</z:description>
+		<z:attribution>Phoenix HiRISEing (Photo credit: &lt;a href="http://www.flickr.com/photos/44124348109@N01/2528549459"&gt;jurvetson&lt;/a&gt;)</z:attribution>
+		<z:license_text>License CreativeCommons Attribution only</z:license_text>
+		<z:source_url rdf:resource="http://www.flickr.com/photos/44124348109@N01/2528549459" />
+		<z:confidence>0.5000</z:confidence>
+		<z:url_s rdf:resource="http://farm3.static.flickr.com/2011/2528549459_0c667c7ae0_s.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>75</z:url_s_h>
+		<z:url_m rdf:resource="http://farm3.static.flickr.com/2011/2528549459_0c667c7ae0_m.jpg" />
+		<z:url_m_w>240</z:url_m_w>
+		<z:url_m_h>119</z:url_m_h>
+		<z:url_l rdf:resource="http://farm3.static.flickr.com/2011/2528549459_0c667c7ae0.jpg" />
+		<z:url_l_w>500</z:url_l_w>
+		<z:url_l_h>249</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image17">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>Phoenix Mars Lander - Day One in Living Color [1680x1050]</z:description>
+		<z:attribution>Phoenix Mars Lander - Day One in Living Color [1680x1050] (Photo credit: &lt;a href="http://www.flickr.com/photos/56024067@N00/2523768821"&gt;DUCKofD3ATH&lt;/a&gt;)</z:attribution>
+		<z:license_text>License CreativeCommons NonCommercial ShareAlike</z:license_text>
+		<z:source_url rdf:resource="http://www.flickr.com/photos/56024067@N00/2523768821" />
+		<z:confidence>0.5000</z:confidence>
+		<z:url_s rdf:resource="http://farm3.static.flickr.com/2126/2523768821_fed518156d_s.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>75</z:url_s_h>
+		<z:url_m rdf:resource="http://farm3.static.flickr.com/2126/2523768821_fed518156d_m.jpg" />
+		<z:url_m_w>240</z:url_m_w>
+		<z:url_m_h>150</z:url_m_h>
+		<z:url_l rdf:resource="http://farm3.static.flickr.com/2126/2523768821_fed518156d.jpg" />
+		<z:url_l_w>500</z:url_l_w>
+		<z:url_l_h>313</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image18">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>Camera on Mars orbiter snaps Phoenix suspended from its parachute during descent through Mars' atmosphere.</z:description>
+		<z:attribution>Camera on Mars orbiter snaps Phoenix suspended from its parachute during descent through Mars' atmosphere. (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:Phoenix_Lander_seen_from_MRO_during_EDL2.jpg"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:Phoenix_Lander_seen_from_MRO_during_EDL2.jpg" />
+		<z:confidence>0.7677</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Phoenix_Lander_seen_from_MRO_during_EDL2.jpg/75px-Phoenix_Lander_seen_from_MRO_during_EDL2.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>75</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/2/2e/Phoenix_Lander_seen_from_MRO_during_EDL2.jpg" />
+		<z:url_m_w>260</z:url_m_w>
+		<z:url_m_h>260</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/2/2e/Phoenix_Lander_seen_from_MRO_during_EDL2.jpg" />
+		<z:url_l_w>260</z:url_l_w>
+		<z:url_l_h>260</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image19">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>A photo taken by the Phoenix Mars lander of the Polar Plains of Mars</z:description>
+		<z:attribution>A photo taken by the Phoenix Mars lander of the Polar Plains of Mars (Photo credit: &lt;a href="http://en.wikipedia.org/wiki/File:Martian_Polar_Plains.jpg"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://en.wikipedia.org/wiki/File:Martian_Polar_Plains.jpg" />
+		<z:confidence>0.7572</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Martian_Polar_Plains.jpg/75px-Martian_Polar_Plains.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>58</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Martian_Polar_Plains.jpg/300px-Martian_Polar_Plains.jpg" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>233</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/en/e/ef/Martian_Polar_Plains.jpg" />
+		<z:url_l_w>450</z:url_l_w>
+		<z:url_l_h>350</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image20">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>Image of Phoenix landing on Mars, as seen by HiRISE. Although in the image it appears to be descending into the crater, Phoenix actually landed 20 km away from it.</z:description>
+		<z:attribution>Image of Phoenix landing on Mars, as seen by HiRISE. Although in the image it appears to be descending into the crater, Phoenix actually landed 20 km away from it. (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:Descent_of_Phoenix_with_a_crater_in_the_background_taken_by_Mars_Reconnaissance_Orbiter.jpg"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:Descent_of_Phoenix_with_a_crater_in_the_background_taken_by_Mars_Reconnaissance_Orbiter.jpg" />
+		<z:confidence>0.6740</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Descent_of_Phoenix_with_a_crater_in_the_background_taken_by_Mars_Reconnaissance_Orbiter.jpg/75px-Descent_of_Phoenix_with_a_crater_in_the_background_taken_by_Mars_Reconnaissance_Orbiter.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>37</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Descent_of_Phoenix_with_a_crater_in_the_background_taken_by_Mars_Reconnaissance_Orbiter.jpg/300px-Descent_of_Phoenix_with_a_crater_in_the_background_taken_by_Mars_Reconnaissance_Orbiter.jpg" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>149</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/d/d2/Descent_of_Phoenix_with_a_crater_in_the_background_taken_by_Mars_Reconnaissance_Orbiter.jpg" />
+		<z:url_l_w>1500</z:url_l_w>
+		<z:url_l_h>746</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image21">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>Self-Portrait, Day 2</z:description>
+		<z:attribution>Self-Portrait, Day 2 (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:Self-Portrait%2C_Day_2.jpg"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:Self-Portrait%2C_Day_2.jpg" />
+		<z:confidence>0.6541</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Self-Portrait%2C_Day_2.jpg/75px-Self-Portrait%2C_Day_2.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>56</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Self-Portrait%2C_Day_2.jpg/300px-Self-Portrait%2C_Day_2.jpg" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>225</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/a/ad/Self-Portrait%2C_Day_2.jpg" />
+		<z:url_l_w>946</z:url_l_w>
+		<z:url_l_h>710</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image22">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>English: This view from the Surface Stereo Imager on NASA's Phoenix Mars Lander shows the first impression –- dubbed Yeti and shaped like a wide footprint -- made on the Martian soil by the robotic arm scoop on Sol 6, the sixth Martian day of the mission, (May 31, 2008). Touching the ground is the first step toward scooping up soil and ice and delivering the samples to the lander's onboard experiments.</z:description>
+		<z:attribution>English: This view from the Surface Stereo Imager on NASA's Phoenix Mars Lander shows the first impression –- dubbed Yeti and shaped like a wide footprint -- made on the Martian soil by the robotic arm scoop on Sol 6, the sixth Martian day of the mission, (May 31, 2008). Touching the ground is the first step toward scooping up soil and ice and delivering the samples to the lander's onboard experiments. (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:Phoenix_martian_footprint.jpg"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:Phoenix_martian_footprint.jpg" />
+		<z:confidence>0.5709</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Phoenix_martian_footprint.jpg/75px-Phoenix_martian_footprint.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>78</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Phoenix_martian_footprint.jpg/300px-Phoenix_martian_footprint.jpg" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>312</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/6/6e/Phoenix_martian_footprint.jpg" />
+		<z:url_l_w>800</z:url_l_w>
+		<z:url_l_h>833</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image23">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>NASA - Mars Panorama (pd)</z:description>
+		<z:attribution>NASA - Mars Panorama (pd) (Photo credit: &lt;a href="http://commons.wikipedia.org/wiki/File:NASA_-_Mars_Panorama_%28pd%29.jpg"&gt;Wikipedia&lt;/a&gt;)</z:attribution>
+		<z:license_text>Public domain</z:license_text>
+		<z:source_url rdf:resource="http://commons.wikipedia.org/wiki/File:NASA_-_Mars_Panorama_%28pd%29.jpg" />
+		<z:confidence>0.5514</z:confidence>
+		<z:url_s rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/0/03/NASA_-_Mars_Panorama_%28pd%29.jpg/75px-NASA_-_Mars_Panorama_%28pd%29.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>18</z:url_s_h>
+		<z:url_m rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/0/03/NASA_-_Mars_Panorama_%28pd%29.jpg/300px-NASA_-_Mars_Panorama_%28pd%29.jpg" />
+		<z:url_m_w>300</z:url_m_w>
+		<z:url_m_h>71</z:url_m_h>
+		<z:url_l rdf:resource="http://upload.wikimedia.org/wikipedia/commons/0/03/NASA_-_Mars_Panorama_%28pd%29.jpg" />
+		<z:url_l_w>26180</z:url_l_w>
+		<z:url_l_h>6180</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Image24">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Image" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:description>Phoenix</z:description>
+		<z:attribution>Phoenix (Photo credit: &lt;a href="http://www.flickr.com/photos/93316477@N00/2526206960"&gt;CHWSFO&lt;/a&gt;)</z:attribution>
+		<z:license_text>License CreativeCommons NonCommercial NoDerivs</z:license_text>
+		<z:source_url rdf:resource="http://www.flickr.com/photos/93316477@N00/2526206960" />
+		<z:confidence>0.5000</z:confidence>
+		<z:url_s rdf:resource="http://farm4.static.flickr.com/3112/2526206960_e194d812c2_s.jpg" />
+		<z:url_s_w>75</z:url_s_w>
+		<z:url_s_h>75</z:url_s_h>
+		<z:url_m rdf:resource="http://farm4.static.flickr.com/3112/2526206960_e194d812c2_m.jpg" />
+		<z:url_m_w>240</z:url_m_w>
+		<z:url_m_h>180</z:url_m_h>
+		<z:url_l rdf:resource="http://farm4.static.flickr.com/3112/2526206960_e194d812c2.jpg" />
+		<z:url_l_w>500</z:url_l_w>
+		<z:url_l_h>375</z:url_l_h>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Keyword1">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Keyword" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.2542</z:confidence>
+		<z:name>Martian surface</z:name>
+		<z:scheme>general</z:scheme>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Keyword2">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Keyword" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.1705</z:confidence>
+		<z:name>Mars</z:name>
+		<z:scheme>general</z:scheme>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Keyword3">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Keyword" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.1044</z:confidence>
+		<z:name>Phoenix</z:name>
+		<z:scheme>general</z:scheme>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Keyword4">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Keyword" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.1031</z:confidence>
+		<z:name>NASA</z:name>
+		<z:scheme>general</z:scheme>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Keyword5">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Keyword" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.0869</z:confidence>
+		<z:name>Robotic arm</z:name>
+		<z:scheme>general</z:scheme>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Keyword6">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Keyword" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.0833</z:confidence>
+		<z:name>Mars Science Laboratory</z:name>
+		<z:scheme>general</z:scheme>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Keyword7">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Keyword" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.0450</z:confidence>
+		<z:name>Solar System</z:name>
+		<z:scheme>general</z:scheme>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Keyword8">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Keyword" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.0431</z:confidence>
+		<z:name>Gale</z:name>
+		<z:scheme>general</z:scheme>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Recognition1">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Recognition" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.7654</z:confidence>
+		<z:relevance>0.8269</z:relevance>
+		<z:anchor>Phoenix Mars Lander</z:anchor>
+		<z:object>
+			<rdf:Description rdf:about="http://s.zemanta.com/obj/92df4910a1805470a7f8a6e28a02b7b6">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Object" />
+				<owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en/phoenix_mars_mission" />
+				<owl:sameAs rdf:resource="http://dbpedia.org/resource/Phoenix_%28spacecraft%29" />
+				<z:target>
+					<rdf:Description rdf:about="http://maps.google.com/maps?ll=68.22,-125.7&amp;spn=1.0,1.0&amp;q=68.22,-125.7 (Phoenix%20%28spacecraft%29)&amp;t=h">
+						<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+						<z:title>Phoenix (spacecraft)</z:title>
+						<z:targetType rdf:resource="http://s.zemanta.com/targets#geolocation" />
+					</rdf:Description>
+				</z:target>
+				<z:target>
+					<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Phoenix_%28spacecraft%29">
+						<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+						<z:title>Phoenix (spacecraft)</z:title>
+						<z:targetType rdf:resource="http://s.zemanta.com/targets#wikipedia" />
+					</rdf:Description>
+				</z:target>
+				<z:target>
+					<rdf:Description rdf:about="http://www.youtube.com/watch?v=tR91HkTZ9VY">
+						<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+						<z:title>Phoenix Landing</z:title>
+						<z:targetType rdf:resource="http://s.zemanta.com/targets#youtube" />
+					</rdf:Description>
+				</z:target>
+				<z:target>
+					<rdf:Description rdf:about="http://rdf.freebase.com/ns/en/phoenix_mars_mission">
+						<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+						<z:title>Phoenix (spacecraft)</z:title>
+						<z:targetType rdf:resource="http://s.zemanta.com/targets#rdf" />
+					</rdf:Description>
+				</z:target>
+				<z:target>
+					<rdf:Description rdf:about="http://dbpedia.org/resource/Phoenix_%28spacecraft%29">
+						<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+						<z:title>Phoenix (spacecraft)</z:title>
+						<z:targetType rdf:resource="http://s.zemanta.com/targets#rdf" />
+					</rdf:Description>
+				</z:target>
+			</rdf:Description>
+		</z:object>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Recognition2">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Recognition" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.7161</z:confidence>
+		<z:relevance>0.7537</z:relevance>
+		<z:anchor>Martian
+	surface</z:anchor>
+		<z:object>
+			<rdf:Description rdf:about="http://s.zemanta.com/obj/9eb218cd1bd8442977e12931719ed5d0">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Object" />
+				<owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m/0dgr1g_" />
+				<owl:sameAs rdf:resource="http://dbpedia.org/resource/Martian_surface" />
+				<z:target>
+					<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Martian_surface">
+						<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+						<z:title>Martian surface</z:title>
+						<z:targetType rdf:resource="http://s.zemanta.com/targets#wikipedia" />
+					</rdf:Description>
+				</z:target>
+				<z:target>
+					<rdf:Description rdf:about="http://rdf.freebase.com/ns/m/0dgr1g_">
+						<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+						<z:title>Martian surface</z:title>
+						<z:targetType rdf:resource="http://s.zemanta.com/targets#rdf" />
+					</rdf:Description>
+				</z:target>
+				<z:target>
+					<rdf:Description rdf:about="http://dbpedia.org/resource/Martian_surface">
+						<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+						<z:title>Martian surface</z:title>
+						<z:targetType rdf:resource="http://s.zemanta.com/targets#rdf" />
+					</rdf:Description>
+				</z:target>
+			</rdf:Description>
+		</z:object>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Recognition3">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Recognition" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.5984</z:confidence>
+		<z:relevance>0.5315</z:relevance>
+		<z:anchor>robotic arm</z:anchor>
+		<z:object>
+			<rdf:Description rdf:about="http://s.zemanta.com/obj/25d4d99d645ecff3d97a405be864b424">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Object" />
+				<owl:sameAs rdf:resource="http://rdf.freebase.com/ns/en/robotic_arm" />
+				<owl:sameAs rdf:resource="http://dbpedia.org/resource/Robotic_arm" />
+				<z:target>
+					<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Robotic_arm">
+						<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+						<z:title>Robotic arm</z:title>
+						<z:targetType rdf:resource="http://s.zemanta.com/targets#wikipedia" />
+					</rdf:Description>
+				</z:target>
+				<z:target>
+					<rdf:Description rdf:about="http://rdf.freebase.com/ns/en/robotic_arm">
+						<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+						<z:title>Robotic arm</z:title>
+						<z:targetType rdf:resource="http://s.zemanta.com/targets#rdf" />
+					</rdf:Description>
+				</z:target>
+				<z:target>
+					<rdf:Description rdf:about="http://dbpedia.org/resource/Robotic_arm">
+						<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+						<z:title>Robotic arm</z:title>
+						<z:targetType rdf:resource="http://s.zemanta.com/targets#rdf" />
+					</rdf:Description>
+				</z:target>
+			</rdf:Description>
+		</z:object>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Category1">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Category" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.1922</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://d.zemanta.com/cats/dmoz/Top/Science/Astronomy/Solar_System/Planets/Mars">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#category" />
+				<z:title>Top/Science/Astronomy/Solar_System/Planets/Mars</z:title>
+				<z:categorization rdf:resource="http://s.zemanta.com/cat/dmoz" />
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Category2">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Category" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.1861</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://d.zemanta.com/cats/dmoz/Top/Science/Technology/Space/Colonization/Mars">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#category" />
+				<z:title>Top/Science/Technology/Space/Colonization/Mars</z:title>
+				<z:categorization rdf:resource="http://s.zemanta.com/cat/dmoz" />
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Category3">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Category" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.1678</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://d.zemanta.com/cats/dmoz/Top/Science/Astronomy/Solar_System/Planets/Mars/Exploration">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#category" />
+				<z:title>Top/Science/Astronomy/Solar_System/Planets/Mars/Exploration</z:title>
+				<z:categorization rdf:resource="http://s.zemanta.com/cat/dmoz" />
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Category4">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Category" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.1597</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://d.zemanta.com/cats/dmoz/Top/Science/Technology/Space/Missions/Unmanned/Mars/Mars_Polar_Lander">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#category" />
+				<z:title>Top/Science/Technology/Space/Missions/Unmanned/Mars/Mars_Polar_Lander</z:title>
+				<z:categorization rdf:resource="http://s.zemanta.com/cat/dmoz" />
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Category5">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Category" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.1556</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://d.zemanta.com/cats/dmoz/Top/Science/Astronomy/Solar_System/Planets/Mars/Life_on_Mars">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#category" />
+				<z:title>Top/Science/Astronomy/Solar_System/Planets/Mars/Life_on_Mars</z:title>
+				<z:categorization rdf:resource="http://s.zemanta.com/cat/dmoz" />
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Category6">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Category" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.1244</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://d.zemanta.com/cats/dmoz/Top/Science/Technology/Space/Missions/Unmanned/Mars">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#category" />
+				<z:title>Top/Science/Technology/Space/Missions/Unmanned/Mars</z:title>
+				<z:categorization rdf:resource="http://s.zemanta.com/cat/dmoz" />
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Category7">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Category" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.1065</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://d.zemanta.com/cats/dmoz/Top/Science/Astronomy/Solar_System/Planets">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#category" />
+				<z:title>Top/Science/Astronomy/Solar_System/Planets</z:title>
+				<z:categorization rdf:resource="http://s.zemanta.com/cat/dmoz" />
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+	<rdf:Description rdf:about="#Category8">
+		<rdf:type rdf:resource="http://s.zemanta.com/ns#Category" />
+		<z:doc rdf:resource="http://d.zemanta.com/rid/a857816d-7fef-4916-a42d-ceb466c09a2e" />
+		<z:confidence>0.1010</z:confidence>
+		<z:target>
+			<rdf:Description rdf:about="http://d.zemanta.com/cats/dmoz/Top/Business/Industrial_Goods_and_Services/Factory_Automation/Motion_Control/End-of-Arm_Tooling">
+				<rdf:type rdf:resource="http://s.zemanta.com/ns#Target" />
+				<z:targetType rdf:resource="http://s.zemanta.com/targets#category" />
+				<z:title>Top/Business/Industrial_Goods_and_Services/Factory_Automation/Motion_Control/End-of-Arm_Tooling</z:title>
+				<z:categorization rdf:resource="http://s.zemanta.com/cat/dmoz" />
+			</rdf:Description>
+		</z:target>
+	</rdf:Description>
+</rdf:RDF>
