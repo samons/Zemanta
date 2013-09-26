@@ -13,9 +13,7 @@ Usage:
 		'text' => 'Your text'
 	);
 	$suggest = $zemanta->api($params);
-
-	// output
-	// array('status' => 'ok', 'articles' => .....);
+	
 
 The `api` method also support API `method` parameter as first argument and optional API parameters as array in second or third argument. 
 
