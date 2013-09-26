@@ -2,16 +2,8 @@
 
 namespace Zemanta;
 
-class ZemantaTest extends \PHPUnit_Framework_TestCase
+class ZemantaTest extends \Zemanta\TestCase
 {
-    protected $apiKey;
-    protected $defaultParams;
-
-    public function setUp()
-    {
-        $this->apiKey = md5(time());
-    }
-
     public function testApiKey()
     {
         $zemanta = new Zemanta($this->apiKey);
@@ -37,28 +29,28 @@ class ZemantaTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($endPoint, $zemanta->getEndPoint());
     }
 
-    public function testGetRawInvalidParametersNoMethod() 
+    public function testRequestInvalidParametersNoMethod() 
     {
         $this->setExpectedException('\InvalidArgumentException');
         $zemanta = new Zemanta($this->apiKey);
-        $zemanta->getRaw(array());
+        $zemanta->request(array());
     }
 
-    public function testGetRawInvalidParametersNoText() 
+    public function testRequestInvalidParametersNoText() 
     {
         $this->setExpectedException('\InvalidArgumentException');
         $zemanta = new Zemanta($this->apiKey);
-        $zemanta->getRaw(array('method' => Zemanta::METHOD_SUGGEST));
+        $zemanta->request(array('method' => Zemanta::METHOD_SUGGEST));
     }
 
-    public function testGetRawInvalidFormat()
+    public function testRequestInvalidFormat()
     {
         $this->setExpectedException('\InvalidArgumentException');
         $zemanta = new Zemanta($this->apiKey);
-        $zemanta->getRaw(array('method' => Zemanta::METHOD_PREFERENCES, 'format' => 'asp'));
+        $zemanta->request(array('method' => Zemanta::METHOD_PREFERENCES, 'format' => 'asp'));
     }
 
-    public function testGetRaw()
+    public function testRequest()
     {
         $params = array(
             'method' => Zemanta::METHOD_SUGGEST, 
@@ -75,9 +67,9 @@ class ZemantaTest extends \PHPUnit_Framework_TestCase
                 ->with($requestUrl, $requestParams)
                 ->will($this->returnValue($expectedResponse));
 
-        $response = $zemanta->getRaw($params);
+        $response = $zemanta->request($params);
 
-        $this->assertInternalType('string', $response);
+        $this->assertInstanceOf('\Zemanta\Response', $response);
         $this->assertEquals($expectedResponse, $response);
     }
 
@@ -88,66 +80,55 @@ class ZemantaTest extends \PHPUnit_Framework_TestCase
         $zemanta->api();
     }   
 
-    public function testApi()
+    public function testApiParameters()
     {
         $params = array(
             'method' => Zemanta::METHOD_SUGGEST, 
-            'text'   => 'Lorem ipsum',
-            'format' => 'xml'
+            'text'   => 'Lorem ipsum'
         );
-        $zemanta = $this->getMock('\Zemanta\Zemanta', array('getRaw'), array($this->apiKey));
+        $zemanta = $this->getMock('\Zemanta\Zemanta', array('request'), array($this->apiKey));
         $zemanta->expects($this->once())
-                ->method('getRaw')
+                ->method('request')
                 ->with($this->equalTo($params));
 
-        unset($params['format']);
-
         $response = $zemanta->api($params);
-
-        $this->assertInternalType('array', $response);
     }
 
-    public function testApiMethodArgument()
+    public function testApiParametersMethodAsArgument()
     {
         $params = array(
             'method' => Zemanta::METHOD_PREFERENCES, 
             'text'   => 'Lorem ipsum',
             'format' => 'xml'
         );              
-        $zemanta = $this->getMock('\Zemanta\Zemanta', array('getRaw'), array($this->apiKey));
+        $zemanta = $this->getMock('\Zemanta\Zemanta', array('request'), array($this->apiKey));
         $zemanta->expects($this->once())
-                ->method('getRaw')
+                ->method('request')
                 ->with($this->equalTo($params));
 
-        $response = $zemanta->api(Zemanta::METHOD_PREFERENCES, 'Lorem ipsum', $params);
-
-        $this->assertInternalType('array', $response);
+        $zemanta->api(Zemanta::METHOD_PREFERENCES, 'Lorem ipsum', $params);
     }   
 
-    // Test parse response XML, WJSON, JSON, RDF
-    public function testApiParseXML()
-    {       
+    public function testApiResponse()
+    {
         $params = array(
             'method' => Zemanta::METHOD_SUGGEST, 
-            'text'   => 'Lorem ipsum',
-            'format' => 'json'
-        );                      
-        $json = $this->getResponseFixture('suggest.json');      
+            'text'   => 'Lorem ipsum'           
+        );      
+        $requestParams = array_merge($params, array('api_key' => $this->apiKey, 'format' => 'xml'));
+
+        $requestUrl = Zemanta::END_POINT;
+        $expectedResponse = '<rsp><status>ok</status></rsp>';
 
         $zemanta = $this->getMock('\Zemanta\Zemanta', array('makeRequest'), array($this->apiKey));
         $zemanta->expects($this->once())
                 ->method('makeRequest')
-                ->will($this->returnValue($json));
-                
+                ->with($requestUrl, $requestParams)
+                ->will($this->returnValue($expectedResponse));
+
         $response = $zemanta->api($params);
 
-        $this->assertInternalType('array', $response);
-        $this->assertArrayHasKey('status', $response);
-        $this->assertArrayHasKey('articles', $response);
-    }   
-
-    protected function getResponseFixture($file)
-    {
-        return file_get_contents(__DIR__ . '/Resources/' . $file);
+        $this->assertInstanceOf('\Zemanta\Response', $response);
+        $this->assertEquals($expectedResponse, $response);
     }
 }

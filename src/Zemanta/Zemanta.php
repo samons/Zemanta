@@ -2,7 +2,7 @@
 
 namespace Zemanta;
 
-use Guzzle\Http\Client;
+use Zemanta\Response;
 
 class Zemanta
 {
@@ -64,7 +64,7 @@ class Zemanta
      *
      * @param string|array
      *
-     * @return array
+     * @return \Zemanta\Response
      */
     public function api()
     {
@@ -88,32 +88,10 @@ class Zemanta
             case 0:
             default: 
                 throw new \InvalidArgumentException('No parameters to build query from');
-        }
+        }                
+        $response = $this->request($parameters);
 
-        // Set default return format. It must be necessary to parse raw response
-        if (!isset($parameters['format'])) {
-            $parameters['format'] = 'xml';
-        }       
-        
-        $raw = $this->getRaw($parameters);
-        $response = $this->parseResponse($raw, $parameters['format']);
-
-        return $response;        
-    }
-
-    /**
-     * @param string $response
-     * @param string $format
-     */
-    public function parseResponse($response, $format)
-    {
-        $returnValue = array();
-
-        if ($parameters['format'] == 'json') {
-            $returnValue = json_decode($response, true);
-        }        
-
-        return $return;
+        return $response;
     }
 
     /**
@@ -124,9 +102,9 @@ class Zemanta
      *
      * @param array $parameters
      *
-     * @return string
+     * @return \Zemanta\Response
      */
-    public function getRaw($parameters = array())
+    public function request($parameters = array())
     {
         // Validating method
         if (!isset($parameters['method'])) {
@@ -147,14 +125,16 @@ class Zemanta
         }
 
         // Validating format
-        if (!preg_match("/^(xml|json|wnjson|rdfxml)$/", $parameters['format'])) {
+        $pattern = array(Response::FORMAT_XML, Response::FORMAT_JSON, Response::FORMAT_WNJSON, Response::FORMAT_RDF);
+
+        if (!preg_match("/^(" . implode("|", $pattern). ")$/", $parameters['format'])) {
             throw new \InvalidArgumentException(sprintf( 'Format %s is not supported', $parameters['format']) );
         }
 
         // Preparing and make request
         $response = $this->makeRequest($this->endPoint, $parameters);
 
-        return $response;
+        return new Response($response, $parameters['format']);
     }
 
     /**
@@ -174,8 +154,8 @@ class Zemanta
             )
         ));
 
-        $result = file_get_contents($url, false, $context);
+        $body = file_get_contents($url, false, $context);
 
-        return $result;
+        return $body;
     }
 }

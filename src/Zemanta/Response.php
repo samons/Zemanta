@@ -2,21 +2,69 @@
 
 namespace Zemanta;
 
-abstract class Response implements ArrayAccess
+class Response
 {
     /**
-     * @param array $data
+     * Response formats
      */
-    public function __construct($data = array())
+    const FORMAT_JSON            = 'json';
+    const FORMAT_RDF             = 'xmlrdf';
+    const FORMAT_XML             = 'xml';
+    const FORMAT_WNJSON          = 'wnjson';
+
+    /**
+     * @var string
+     */
+    protected $body;
+
+    /**
+     * @param 
+     */
+    protected $format;
+
+    /**
+     * @param string $body
+     * @param string $format
+     */
+    public function __construct($body, $format = self::FORMAT_XML)
     {
-        $this->data = $data;
+        $this->body   = $body;
+        $this->format = $format;
+    }
+
+    /**
+     * @return array
+     */
+    public function getFormat()
+    {
+        return $this->format;
     }
 
     /**
      * @return string
      */
-    public function getStatus()
+    public function getBody()
     {
-        return isset($this->data['status']) ? $this->data['status'] : static::STATUS_FAIL;
+        return $this->body;
+    }
+
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->body;
+    }
+
+    /**
+     * @return array
+     */
+    public function toArray()
+    {
+        if ($this->format != static::FORMAT_JSON) {
+            throw new \RuntimeException( 'Export to array is only supported by JSON format' );
+        }
+
+        return json_decode($this->body, true);
     }
 }
