@@ -1,7 +1,7 @@
 Zemanta PHP API 
 ===============
 
-More info about API and to retrieve API key, see http://www.zemanta.com
+More info about API and to retrieve API key, see http://developer.zemanta.com
 
 Usage:
 
@@ -24,18 +24,24 @@ The `api` method also support API `method` parameter as first argument and optio
 	// or with text
 	$zemanta->api('zemanta.suggest', 'Your text', $params);
 
-The output to `api` is alwas an array. To get raw response, use `getRaw` method with array of parameters. 
+To request with raw parameters, use `request` method with array of parameters.
 
 	$args = array(
 		'method' => 'zemanta.suggest',
 		'text'   => 'Your text',
 		'format' => 'json'
 	)
-	$response = $zemanta->getRaw($args);
+	$response = $zemanta->request($args);
 
-The API supports JSON, WNJSON, XML and RDFXML as ouput formats. If format parameter is not informed, XML format is used as default. 
+The API supports `json`, `wnjson`, `xml` and `rdfxml` as ouput formats. If format parameter is not informed, `xml` format is used as default. 
 
-Object-oriented
----------------
+Either `api` or `request` method returns a `Zemanta\Response` instance. To print or parse raw response body, you could use `getBody` method. 
 
-Soon...
+	echo $response->getBody();
+
+	// Zemanta\Response supports __toString() magic method, so you could print it direct. 
+	echo $response;
+
+To `json` format, you could export response to array. 
+
+	$array = $response->toArray();
