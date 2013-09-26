@@ -44,6 +44,32 @@ class Zemanta
     }
 
     /**
+     * Suggest API method shortcut
+     *
+     * @param string $text
+     * @param string $format
+     * 
+     * @return \Zemanta\Response
+     */
+    public function suggest($text, $format = Response::FORMAT_XML)
+    {
+        return $this->api(static::METHOD_SUGGEST, $text, array('format' => $format));
+    }
+
+    /**
+     * Suggest API method shortcut
+     *
+     * @param string $text
+     * @param string $format
+     * 
+     * @return \Zemanta\Response
+     */
+    public function suggestMarkup($text, $format = Response::FORMAT_XML)
+    {
+        return $this->api(static::METHOD_SUGGEST_MARKUP, $text, array('format' => $format));
+    }     
+
+    /**
      * Query Zemanta service for suggestions or markup, format other than XML. 
      * Other supported formats: JSON, WJSON, RDF/XML
      *
@@ -157,5 +183,5 @@ class Zemanta
         $body = file_get_contents($url, false, $context);
 
         return $body;
-    }
+    }   
 }
