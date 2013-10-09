@@ -180,7 +180,9 @@ class Zemanta
             )
         ));
 
-        $body = file_get_contents($url, false, $context);
+        if (false === ($body = file_get_contents($url, false, $context))) {
+            throw new \RuntimeException('Zemanta HTTP request failed');
+        }
 
         return $body;
     }   

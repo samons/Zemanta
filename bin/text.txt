@@ -1,0 +1,51 @@
+DEMENTIA
+
+Dementia diseases, such as Alzheimer's disease (AD), have a large impact on the everyday life of persons affected, their spouses, and the staff involved in their daily living (Borell, 1992). For example, the cognitive dysfunctions resulting from dementia diseases interfere largely with the performance of most activities of daily living (ADL) (Bäckman, 1992). Consequently, an urgent need exists to develop programs supporting everyday occupation for persons with dementia. Occupational therapy can help persons with a dementia disease to regain and retain meaningful life skills (Rogers, 1986). Yet few such programs are documented; and few attempts have been made to evaluate the effects of such programs on the performance of ADL among individuals exhibiting dementia. Furthermore, it is unclear what the focus of such programs should be. Should the intervention seek to improve the cognitive constituents underlying performance of ADL (e.g., memory), or should it focus on environmental and social conditions supporting task performance (Fisher, 1992)?
+
+Several attempts have been made to enhance cognitive functions, like memory, in persons with dementia diseases (Bäckman, 1990). However, training-related gains have been small or nonexistent following these interventions (e.g., Bäckman, Josephsson, Herlitz, Stigsdotter, & Viitanen, 1991; Beck et al, 1985; Zarit, Zarit, & Reever, 1982). It is conceivable that the lack of effects of these techniques in training persons with dementia diseases is due to the reliance on effortful strategies and associative skills (e.g., imagery, organization) that are severely impaired in dementia (Bäckman et al., 1991; Josephsson et al., 1993). Thus, persons with dementia may lack the requisite cognitive skills for making effective use of this type of training. Other functions relevant to ADL performance, like motor functioning and procedural memory, are less affected in dementia diseases (Dick, Kean, & Sands, 1988). Procedural memory has been defined as the presence of previous experience that alters or facilitates an individual's performance in a task (Dick, 1992). In contrast to the retrieval of temporally- and spatially-bound information, procedural memory does not seem to require conscious recollection of information. An alternative to training functions that are severely affected by the dementia disease may be to arrange the task conditions so that the use of these relatively well preserved functions is facilitated.
+
+Furthermore, in performance of ADL, factors other than functional abilities are likely to influence the outcome. The Model of Human Occupation (MOHO), introduced by Kielhofner (1985), identifies three subsystems critical to occupation on the individual level. First, the volition system is responsible for decisions to engage or not engage in occupation. Second, the habituation system maintains patterns of behavior through roles and habits. Third, the performance system is responsible for the production of behavior. To be sure, multiple interactions occur among these systems together with the environment (e.g., culture, social system, tasks, objects) in which occupations take place. Given the multifaceted nature of occupation, it is perhaps not surprising that it has been difficult to establish an overall relationship between individual level of cognitive skill and ADL performance (Fisher, 1992).
+
+References
+
+Alexopolous, G. S., Abrams, R. C, Young, R. C, & Shamoian, C. A. (1988). Cornell scale for depression in dementia. Biological Psychiatry, 25, 271-284.
+
+American Psychiatric Association. (1987). Diagnostic and statistical manual of mental disorders. (3rd ed. rev.) Washington, DC: Author. Bäckman, L. (1990). Plasticity of memory functioning in normal aging and Alzheimer's disease. Acta Neurologica Scandinavica, 82, 32-36.
+
+Bäckman, L. (1992). Memory training and memory improvement in Alzheimer's disease: Rules and exceptions. Acta Neurologica Scandinavica, 84, 84-89.
+
+Bäckman, L., Josephsson, S., Herlitz, A., Stigsdotter, A., & Viitanen, M. (1991). The generalizability of training gains in dementia. Effects of an imagery-based mnemonic on face-name retention duration. Psychology and Aging, 6, 489-491.
+
+Barlow, D. H., & Hersen, M. (1984). Single case experimental designs: Strategies for studying behavior change (2nd ed). New York: Pergamon Press.
+
+Beck, C. K., Heacock, P., Thatcher, R., Mercer, S. Q, Sparkman, C, & Roberts, M. A. (1985, July). Cognitive skills remediation with Alzheimer's patients. Paper presented at the 13th International Congress of Gerontology, New York.
+
+Borell, L. (1992). The activity life of persons with a dementia disease. Doctoral dissertation. Department of Geriatric Medicine, Karolinska Institute, Stockholm, Sweden.
+
+Cole, M. G., & Dastour, M. (1987). A new hierarchic approach to the measurement of dementia. Psychosomatik, 28, 298-306.
+
+Dick, M. B. (1992). Motor and procedural memory in Alzheimer's disease. In: L. Bäckman (Ed.), Memory functioning in dementia, (pp. 135-147). Amsterdam: North-Holland.
+
+Dick, M. B., Kean, M., and Sands, S. (1988). The preselection effect on the recall facilitation of motor movements in Alzheimer-type dementia. Journal of Gerontology: Psychological Sciences, 43, 127-135.
+
+Fisher, A. G. (1991). Manual for the assessment of motor and process skills (Research ed.). Department of Occupational Therapy, University of Illinois, Chicago.
+
+Fisher, A. G. (1992). Functional measures. Part 2: Selecting the right test, minimizing the limitations. American Journal of Occupational Therapy, 46, 278-281.
+
+Folstein, M. E, Folstein, S. E., & McHugh, P. R. (1975). Minimental state: A practical method for grading the cognitive state of the patient for the clinician. Journal of Psychiatric Research, 12, 189-198.
+
+Josephsson,S., Bäckman, L., Borell, L., Nygård, L., Bernspång,B., & Rönnberg, L. (1993). Supporting everyday activities in dementia: An intervention study. International Journal of Geriatric Psychiatry, 8, 39S400.
+
+Kazdin, A. E. (1982). Single-case research designs: Methods for clinical and applied settings. New York.
+
+Kielhofner, G. (1985). A model of human occupation. Baltimore: Williams & Wilkins.
+
+McGlynn, S. M., & Kaszniak, A. W. (1991). When metacognition fails: Impaired awareness of deficit in Alzheimers' disease. Journal of Cognitive Neuroscience, 2, 183-189.
+
+McKahnn, G., Drachman, D., Folstein, M., Katzman, R., Price, D., & Stadlan, E. (1984). Clinical diagnosis of Alzheimer's disease. Neurology, 34,939-944.
+
+Ott, L. (1984). An introduction to statistical methods and data analyses. Boston: Duxbury Press.
+
+Rogers, J. (1986). Occupational therapy services for Altzheimer's disease and related disorders. American Journal of Occupational Therapy, 40, 822-824.
+
+Zarit, S. H., Zarit, J. M., & Reever, K. E. (1982). Memory training for severe memory loss: Effects on senile dementia patients and their families. The Gerontologist, 4, 373-377.

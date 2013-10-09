@@ -6,12 +6,13 @@ use Zemanta\Zemanta;
 use Zemanta\Response;
 
 // Config
-$key    = 'your api here';
-$format = Response::FORMAT_RDF; 
-$text   = 'The Phoenix Mars Lander has successfully deployed its robotic arm and
-	tested other instruments including a laser designed to detect dust,
-	clouds, and fog. The arm will be used to dig up samples of the Martian
-	surface which will be analyzed as a possible habitat for life';
+$key    = 'vt4n3etlkarju5sdj9ksm1mx';
+$format = Response::FORMAT_JSON; 
+// $text   = 'The Phoenix Mars Lander has successfully deployed its robotic arm and
+// 	tested other instruments including a laser designed to detect dust,
+// 	clouds, and fog. The arm will be used to dig up samples of the Martian
+// 	surface which will be analyzed as a possible habitat for life';
+$text = file_get_contents(__DIR__ . '/text.txt');
 
 // Request parameters
 $parameters = array(
@@ -24,4 +25,4 @@ $parameters = array(
 $zemanta = new Zemanta($key);
 $response = $zemanta->request($parameters);
 
-echo $response . PHP_EOL;
+print_r($response->toArray());
