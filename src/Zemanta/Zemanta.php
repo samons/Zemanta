@@ -3,6 +3,7 @@
 namespace Zemanta;
 
 use Zemanta\Response;
+use Guzzle\Http\Client;
 
 class Zemanta
 {
@@ -170,20 +171,15 @@ class Zemanta
      */
     protected function makeRequest($url, $parameters = array())
     {       
-        $content  = http_build_query($parameters);      
-        $context = stream_context_create(array(
-            'http' => array(
-                'method' => 'POST',
-                'header' => "Content-type: application/x-www-form-urlencoded\r\n"
-                          . "Content-length: " . strlen($content) . "\r\n",
-                'content' => $content
-            )
-        ));
+        $client = new Client();
 
-        if (false === ($body = file_get_contents($url, false, $context))) {
-            throw new \RuntimeException('Zemanta HTTP request failed');
+        try {
+            $request = $client->post($url)->addPostFields($parameters);
+            $response = $client->send($request);                
+        } catch (\Exception $e) {
+            throw new \RuntimeException('Zemanta HTTP request failed: ' . $e->getMessage());        
         }
 
-        return $body;
+        return $response->getBody();        
     }   
 }
